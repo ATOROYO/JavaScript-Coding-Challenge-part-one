@@ -6,3 +6,7 @@ const markHeight = 1.69;
 
 const johnWeight = 92;
 const johnHeight = 1.95;
+
+// Calculating their BMIs
+const markBMI = markWeight / (markHeight * markHeight);
+const johnBMI = johnWeight / (johnHeight * johnHeight);
