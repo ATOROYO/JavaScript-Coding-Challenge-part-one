@@ -10,3 +10,7 @@ const johnHeight = 1.95;
 // Calculating their BMIs
 const markBMI = markWeight / (markHeight * markHeight);
 const johnBMI = johnWeight / (johnHeight * johnHeight);
+
+// Comparing their BMIs
+const markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
