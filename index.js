@@ -25,15 +25,15 @@ BMI (${markBMI}) is higher than John's (${johnBMI})`);
 // Coding Challenge #3
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
-const dolphins = (96 + 108 + 89) / 3;
-const koalas = (88 + 91 + 110) / 3;
+const dolphins = (97 + 112 + 101) / 3;
+const koalas = (109 + 95 + 123) / 3;
 console.log(dolphins, koalas);
 
 // If statement to compare the their average scores
 if (dolphins >= 100 && dolphins > koalas) {
-  console.log(`Dolpins are the winner`);
+  console.log(`Dolpins are the winner 🏆`);
 } else if (koalas >= 100 && koalas > dolphins) {
-  console.log(`Koalas arethe winners`);
+  console.log(`Koalas arethe winners 🏆`);
 } else if (dolphins >= 100 && dolphins === koalas) {
   console.log(`That is a draw`);
 }
