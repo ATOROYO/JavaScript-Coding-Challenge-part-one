@@ -30,10 +30,10 @@ const koalas = (88 + 91 + 110) / 3;
 console.log(dolphins, koalas);
 
 // If statement to compare the their average scores
-if (dolphins > koalas) {
+if (dolphins >= 100 && dolphins > koalas) {
   console.log(`Dolpins are the winner`);
-} else if (koalas > dolphins) {
+} else if (koalas >= 100 && koalas > dolphins) {
   console.log(`Koalas arethe winners`);
-} else if (dolphins === koalas) {
+} else if (dolphins >= 100 && dolphins === koalas) {
   console.log(`That is a draw`);
 }
